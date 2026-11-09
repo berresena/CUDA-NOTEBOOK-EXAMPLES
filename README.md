@@ -2,7 +2,6 @@
 MSc GPU Programming Lesson Notes and Codebook
 --------------------------------------------------------------------------------------
 *Compare And Swap*
-# CompareExchange (CAS) Çalışma Senaryoları
 
 ## Senaryo 1: Önce Thread 1, Sonra Thread 2 Çalışırsa
 * **Başlangıç:** a = 10
