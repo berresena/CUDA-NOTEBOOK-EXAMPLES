@@ -52,7 +52,5 @@ MSc GPU Programming Lesson Notes and Codebook
 **Sonuç:** `a = 35`
 
 ---
-
-## 3. Çok Önemli Bir Ayrıntı (`join()` Kullanımı)
-Yukarıdaki kodda thread'leri özellikle `join()` ile sırayla beklettiğimiz için; işletim sisteminin rastgele thread planlaması (race condition) engellenmiş olur. Ana thread, birinci thread'in işini tamamen bitirmesini bekler ve ardından diğerini başlatır. Bu sayede programın çıktısı her çalıştırmada deterministik (öngörülebilir) bir şekilde aynı sırayla gerçekleşir.
+kodda thread'leri özellikle `join()` ile sırayla beklettiğimiz için; işletim sisteminin rastgele thread planlaması (race condition) engellenmiş olur. Ana thread, birinci thread'in işini tamamen bitirmesini bekler ve ardından diğerini başlatır. Bu sayede programın çıktısı her çalıştırmada deterministik (öngörülebilir) bir şekilde aynı sırayla gerçekleşir.
 
