@@ -2,7 +2,12 @@
 #include <cstdio>
 #include <thread>
 using namespace std;
-
+ /*
+ KODU ÇALIŞTIRMAK İÇİN;
+ cd /kodun/bulundugu/klasor
+ g++ compare_and_swap.cpp -o compare_and_swap -pthread
+ ./compare_and_swap
+ */
 // Compare and Swap fonksiyonu
 int compare_and_swap(int* regval, int oldval, int newval) {
     int old_reg_val = *regval;
